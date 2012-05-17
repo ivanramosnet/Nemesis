@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content">
+	<name>plg_content_nemesis</name>
+	<author>Iván Ramos Jiménez</author>
+	<creationDate>May 2012</creationDate>
+	<copyright>Copyright (C) 2012 Iván Ramos Jiménez. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@ivan.ramos.name</authorEmail>
+	<authorUrl>ivan.ramos.name</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_NEMESIS_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="nemesis">nemesis.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_nemesis.ini</language>
+		<language tag="en-GB">en-GB.plg_content_nemesis.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="rootfolder"
+					type="text" default="images"
+					label="PLG_CONTENT_NEMESIS_FIELD_ROOTFOLDER_LABEL"
+					description="PLG_CONTENT_NEMESIS_FIELD_ROOTFOLDER_DESC"/>
+				<field name="columns"
+					type="text" default="4"
+					label="PLG_CONTENT_NEMESIS_FIELD_COLUMNS_LABEL"
+					description="PLG_CONTENT_NEMESIS_FIELD_COLUMNS_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
